@@ -90,9 +90,9 @@ return (
       <button className="about-btn" onClick={scrollToHome}>
       HOME
     </button>
-     <button className="about-btn" onClick={scrollToAbout}>
+     {/* <button className="about-btn" onClick={scrollToAbout}>
       ABOUT
-    </button>
+    </button> */}
     <button className="exp-btn" onClick={scrollToExp}>
       EXPERIENCE
     </button>
@@ -100,7 +100,7 @@ return (
       RESUME
     </button>
     <button className="contact-btn" onClick={scrollToContact}>
-      CONTACT NOW
+      CONTACT
     </button>
   </div>
 </div>
@@ -134,3 +134,4 @@ return (
 );
 
 }
+
